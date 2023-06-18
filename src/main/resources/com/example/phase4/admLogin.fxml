@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="405.0" prefWidth="596.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="186.0" layoutY="115.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Digite a senha de login de administrador" wrappingWidth="223.41015625" />
+      <PasswordField layoutX="224.0" layoutY="190.0" />
+      <ImageView fitHeight="256.0" fitWidth="160.0" layoutX="14.0" layoutY="102.0">
+         <image>
+            <Image url="@senteApressao.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="279.0" fitWidth="191.0" layoutX="373.0" layoutY="43.0">
+         <image>
+            <Image url="@coringaPNG.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="272.0" layoutY="253.0" mnemonicParsing="false" text="Confirmar">
+         <font>
+            <Font name="Book Antiqua" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>
