@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <CheckBox layoutX="247.0" layoutY="173.0" mnemonicParsing="false" text="Limpeza" textFill="#6a1296">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </CheckBox>
+      <CheckBox layoutX="247.0" layoutY="209.0" mnemonicParsing="false" text="Montagem" textFill="#6a1296">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </CheckBox>
+      <CheckBox layoutX="247.0" layoutY="247.0" mnemonicParsing="false" text="Instalação" textFill="#6a1296" textOverrun="WORD_ELLIPSIS">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </CheckBox>
+      <Text fill="#16862e" layoutX="184.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Selecione o tipo de serviço" wrappingWidth="245.7265625">
+         <font>
+            <Font name="Book Antiqua" size="20.0" />
+         </font>
+      </Text>
+      <Button layoutX="247.0" layoutY="295.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="112.0" text="Finalizar" textFill="#f20303">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>
