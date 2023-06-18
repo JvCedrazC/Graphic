@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text fill="#a313bf" layoutX="205.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Peças disponíveis" wrappingWidth="190.892578125">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+      <Text fill="#5d0b94" layoutX="79.0" layoutY="152.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Memória Ram">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Button layoutX="256.0" layoutY="312.0" mnemonicParsing="false" text="Finalizar" />
+      <Text fill="#5d0b94" layoutX="81.0" layoutY="185.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Placa mãe">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#1e8621" layoutX="77.0" layoutY="213.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HD/SSD">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#1e8621" layoutX="77.0" layoutY="246.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fonte">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#1e8621" layoutX="77.0" layoutY="275.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Placa de Vídeo">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="325.0" layoutY="97.0">
+         <image>
+            <Image url="@faceCoringa.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="194.0" layoutY="134.0" mnemonicParsing="false" text="Button" />
+      <Button layoutX="194.0" layoutY="167.0" mnemonicParsing="false" text="Button" />
+      <Button layoutX="194.0" layoutY="195.0" mnemonicParsing="false" text="Button" />
+      <Button layoutX="194.0" layoutY="227.0" mnemonicParsing="false" text="Button" />
+      <Button layoutX="194.0" layoutY="256.0" mnemonicParsing="false" text="Button" />
+   </children>
+</Pane>
